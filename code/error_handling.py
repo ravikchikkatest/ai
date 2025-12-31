@@ -6,8 +6,7 @@ from dotenv import load_dotenv
 import os
 
 # Load environment variables
-load_dotenv()
-
+load_dotenv('C:/Agentic/codellm/.env')
 # Configure Google AI API 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
