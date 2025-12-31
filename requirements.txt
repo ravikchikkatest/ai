@@ -3,3 +3,13 @@ langchain-openai
 pydantic
 dotenv
 streamlit
+langchain_community
+openai>=2.0.0
+google-generativeai>=0.3.2
+langchain-text-splitters
+
+numpy
+docx2txt
+pypdf
+
+chromadb[all]
