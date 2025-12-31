@@ -115,3 +115,11 @@ print(final_response.content)
 
 # python -m pip install -r requirements.txt
 # python -m binding_tools
+
+
+# | Call                      | Who runs it | Purpose       |
+# | ------------------------- | ----------- | ------------- |
+# | `model.invoke()` #1       | LLM         | Tool planning |
+# | `get_weather.invoke()`    | Python      | Fetch data    |
+# | `get_population.invoke()` | Python      | Fetch data    |
+# | `model.invoke()` #2       | LLM         | Final answer  |
